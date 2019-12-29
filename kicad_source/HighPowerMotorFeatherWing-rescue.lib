@@ -1,0 +1,324 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# +3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF +3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# +5V-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF +5V-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "+5V-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# 74xx08-IC_logic
+#
+DEF 74xx08-IC_logic U 0 40 Y Y 1 F N
+F0 "U" 50 550 60 H V C CNN
+F1 "74xx08-IC_logic" 200 -650 60 H V C CNN
+F2 "SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" 300 -150 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 0 500 400 -600 0 1 0 N
+X 1A 1 -100 300 100 R 50 50 1 1 I
+X 3A 10 -100 -100 100 R 50 50 1 1 I
+X 4Y 11 500 -300 100 L 50 50 1 1 I
+X 4B 12 -100 -400 100 R 50 50 1 1 I
+X 4A 13 -100 -300 100 R 50 50 1 1 I
+X VCC 14 500 400 100 L 50 50 1 1 I
+X 1B 2 -100 200 100 R 50 50 1 1 I
+X 1Y 3 500 300 100 L 50 50 1 1 I
+X 2A 4 -100 100 100 R 50 50 1 1 I
+X 2B 5 -100 0 100 R 50 50 1 1 I
+X 2Y 6 500 100 100 L 50 50 1 1 I
+X GND 7 -100 -500 100 R 50 50 1 1 I
+X 3Y 8 500 -100 100 L 50 50 1 1 I
+X 3B 9 -100 -200 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ADAFRUIT_FEATHER-MODULE_compute
+#
+DEF ADAFRUIT_FEATHER-MODULE_compute CN 0 40 Y Y 1 F N
+F0 "CN" 0 850 60 H V C CNN
+F1 "ADAFRUIT_FEATHER-MODULE_compute" 0 -850 60 H V C CNN
+F2 "MODULE_compute:ADAFRUIT_FEATHER_HOLES" 150 750 60 H I C CNN
+F3 "" 0 -200 60 H V C CNN
+DRAW
+S -400 800 400 -800 0 1 0 N
+X RESET 1 -600 750 200 R 50 50 1 1 I
+X A5 10 -600 -150 200 R 50 50 1 1 I
+X 15/SCK 11 -600 -250 200 R 50 50 1 1 I
+X 16/MOSI 12 -600 -350 200 R 50 50 1 1 I
+X 14/MISO 13 -600 -450 200 R 50 50 1 1 I
+X 0/RX 14 -600 -550 200 R 50 50 1 1 I
+X 1/TX 15 -600 -650 200 R 50 50 1 1 I
+X GND 16 -600 -750 200 R 50 50 1 1 I
+X 2/SDA 17 600 -750 200 L 50 50 1 1 I
+X 3/SCL 18 600 -650 200 L 50 50 1 1 I
+X 5 19 600 -550 200 L 50 50 1 1 I
+X 3V3 2 -600 650 200 R 50 50 1 1 I
+X 6 20 600 -450 200 L 50 50 1 1 I
+X 9 21 600 -350 200 L 50 50 1 1 I
+X 10 22 600 -250 200 L 50 50 1 1 I
+X 11 23 600 -150 200 L 50 50 1 1 I
+X 12 24 600 -50 200 L 50 50 1 1 I
+X 13 25 600 50 200 L 50 50 1 1 I
+X VBUS 26 600 150 200 L 50 50 1 1 I
+X EN 27 600 250 200 L 50 50 1 1 I
+X VBAT 28 600 350 200 L 50 50 1 1 I
+X AREF 3 -600 550 200 R 50 50 1 1 I
+X GND 4 -600 450 200 R 50 50 1 1 I
+X A0 5 -600 350 200 R 50 50 1 1 I
+X A1 6 -600 250 200 R 50 50 1 1 I
+X A2 7 -600 150 200 R 50 50 1 1 I
+X A3 8 -600 50 200 R 50 50 1 1 I
+X A4 9 -600 -50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ADS1015-IC_interface_i2c
+#
+DEF ADS1015-IC_interface_i2c U 0 40 Y Y 1 F N
+F0 "U" 0 900 60 H V C CNN
+F1 "ADS1015-IC_interface_i2c" 0 0 60 H V C CNN
+F2 "SSOP:MSOP-10_3x3mm_Pitch0.5mm" 600 -150 60 H I C CNN
+F3 "" 600 -150 60 H I C CNN
+DRAW
+S -350 850 350 50 0 1 0 N
+X ADDR 1 -550 500 200 R 50 50 1 1 P
+X SCL 10 -550 700 200 R 50 50 1 1 P
+X ALERT/RDY 2 -550 400 200 R 50 50 1 1 P
+X GND 3 -550 100 200 R 50 50 1 1 P
+X AIN0 4 550 800 200 L 50 50 1 1 P
+X AIN1 5 550 700 200 L 50 50 1 1 P
+X AIN2 6 550 600 200 L 50 50 1 1 P
+X AIN3 7 550 500 200 L 50 50 1 1 P
+X VCC 8 -550 200 200 R 50 50 1 1 P
+X SDA 9 -550 800 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_0603-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF C_0603-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "C_0603-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" 10 -80 50 H V L CNN
+F2 "capacitors:C_0603" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EA_DOGM132-5-displays-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF EA_DOGM132-5-displays-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue DIS 0 40 Y Y 1 F N
+F0 "DIS" -850 900 60 H V C CNN
+F1 "EA_DOGM132-5-displays-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" 50 300 60 H V C CNN
+F2 "displays:EA_DOGM081_162_163_132" 0 550 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -950 850 1100 -350 0 1 0 N
+X A1 1 700 -550 200 U 50 50 1 1 I
+X C2 19 500 -550 200 U 50 50 1 1 I
+X C1 2 800 -550 200 U 50 50 1 1 I
+X A2 20 400 -550 200 U 50 50 1 1 I
+X V0 21 -1150 -250 200 R 50 50 1 1 I
+X V1 22 -1150 -150 200 R 50 50 1 1 I
+X V2 23 -1150 -50 200 R 50 50 1 1 I
+X V3 24 -1150 50 200 R 50 50 1 1 I
+X V4 25 -1150 150 200 R 50 50 1 1 I
+X VSS 26 1300 -150 200 L 50 50 1 1 I
+X CAP2N 27 1300 -50 200 L 50 50 1 1 I
+X CAP2P 28 1300 250 200 L 50 50 1 1 I
+X CAP1P 29 1300 350 200 L 50 50 1 1 I
+X CAP1N 30 1300 650 200 L 50 50 1 1 I
+X CAP3P 31 1300 750 200 L 50 50 1 1 I
+X VOUT 32 -1150 450 200 R 50 50 1 1 I
+X VSS 33 1300 -250 200 L 50 50 1 1 I
+X VDD2 34 -1150 650 200 R 50 50 1 1 I
+X VDD 35 -1150 750 200 R 50 50 1 1 I
+X SI 36 -700 -550 200 U 50 50 1 1 I
+X SCL 37 -600 -550 200 U 50 50 1 1 I
+X A0 38 -500 -550 200 U 50 50 1 1 I
+X RESET 39 -100 -550 200 U 50 50 1 1 I
+X CS 40 -400 -550 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# IFX007T-motor-driver
+#
+DEF IFX007T-motor-driver U 0 40 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "IFX007T-motor-driver" 0 -350 50 H V C CNN
+F2 "SOT_TO:TO-263-7Lead" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 300 350 -300 0 1 0 N
+X GND 1 450 -250 100 L 50 50 1 1 I
+X IN 2 -350 50 100 R 50 50 1 1 I
+X INH 3 -350 -50 100 R 50 50 1 1 I
+X OUT 4 450 50 100 L 50 50 1 1 I
+X SR 5 -350 -150 100 R 50 50 1 1 I
+X IS 6 -350 150 100 R 50 50 1 1 I
+X VS 7 450 250 100 L 50 50 1 1 I
+X OUT 8 450 -50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# IFX91041EFJ-voltage-regulators
+#
+DEF IFX91041EFJ-voltage-regulators U 0 40 Y Y 1 F N
+F0 "U" -500 725 50 H V C CNN
+F1 "IFX91041EFJ-voltage-regulators" -350 -875 50 H V C CNN
+F2 "SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm" -100 -100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -550 675 550 -800 0 1 0 N
+X SYNC 1 -750 -150 200 R 50 50 1 1 I
+X GND 2 -750 -500 200 R 50 50 1 1 I
+X COMP 3 -750 50 200 R 50 50 1 1 I
+X FB 4 750 -400 200 L 50 50 1 1 I
+X BDS 5 750 500 200 L 50 50 1 1 I
+X BUO 6 750 100 200 L 50 50 1 1 I
+X EN 7 -750 250 200 R 50 50 1 1 I
+X VS 8 -750 500 200 R 50 50 1 1 I
+X PAD 9 -750 -650 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Led_Small-devices-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF Led_Small-devices-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Led_Small-devices-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Q_NMOS_GSD-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF Q_NMOS_GSD-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue Q 0 0 Y N 1 F N
+F0 "Q" 300 50 50 H V R CNN
+F1 "Q_NMOS_GSD-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" 650 -50 50 H V R CNN
+F2 "" 200 100 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "R_1206-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" 30 -40 50 H V L CNN
+F2 "resistors:R_1206" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Resistor_*
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 40 40 1 1 P
+X ~ 2 0 -100 30 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TAST_VER-mechanical-switches-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue
+#
+DEF TAST_VER-mechanical-switches-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue SW 0 40 Y Y 1 F N
+F0 "SW" 0 200 60 H V C CNN
+F1 "TAST_VER-mechanical-switches-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue" 0 -200 60 H V C CNN
+F2 "mechanical-switches:PCB_PUSH" 850 50 60 H I C CNN
+F3 "" 850 50 60 H V C CNN
+DRAW
+C -100 0 10 0 1 0 N
+C 100 0 10 0 1 0 N
+P 2 0 1 0 -100 0 -100 -100 N
+P 2 0 1 0 -100 0 100 100 N
+P 2 0 1 0 -50 150 -50 100 N
+P 2 0 1 0 -50 150 -50 150 N
+P 2 0 1 0 0 50 0 150 N
+P 2 0 1 0 50 150 -50 150 N
+P 2 0 1 0 50 150 50 100 N
+P 2 0 1 0 100 0 100 -100 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
+X ~ 3 -300 -100 200 R 50 50 1 1 I
+X ~ 4 300 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
